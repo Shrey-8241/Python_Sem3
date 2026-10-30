@@ -1,0 +1,12 @@
+S="PYTHON PROGRAMMING     "
+print ("OG STRING: ",S)
+print("LENGTH: ",len(S))
+print("UPPER CASE: ",S.upper())
+print("LOWER CASE: ",S.lower())
+print("SLICING: ",S[1:7])
+print("INDEXING: ",S[6])
+print("POSITION OF 'PROG': ",S.find('PROG'))
+print("REPLACE PYTHON WITH DBMS: ",S.replace("PYTHON","DBMS"))
+print("CHECK WORD: ","COMP" in S)
+print("CONCATENATION: ",S + ' LAB')
+print("STRIP: ",S.strip(),len(S))
