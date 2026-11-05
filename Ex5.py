@@ -38,6 +38,13 @@ print("MINIMUM: ", min(t))
 
 print("SUM: ", sum(t))
 
+print("SORTED TUPLE: ", tuple(sorted(t)))
+
+print("CONCATENATION: ", t + (60, 70))
+
+print("REPETITION: ", t * 2)
+
+
 '''
 OUTPUT
 ORIGINAL TUPLE:  (12, 32, 15, 24, 53, 50)
@@ -53,9 +60,3 @@ SORTED TUPLE:  (12, 15, 24, 32, 50, 53)
 CONCATENATION:  (12, 32, 15, 24, 53, 50, 60, 70)
 REPETITION:  (12, 32, 15, 24, 53, 50, 12, 32, 15, 24, 53, 50)
 '''
-
-print("SORTED TUPLE: ", tuple(sorted(t)))
-
-print("CONCATENATION: ", t + (60, 70))
-
-print("REPETITION: ", t * 2)
